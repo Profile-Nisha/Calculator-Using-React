@@ -1,0 +1,26 @@
+/* src/App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.display {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+}
